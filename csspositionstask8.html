@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3TASK</title>
+    <style>
+        
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+}
+.divnav {
+  background-color: #fff;
+  display: block;
+  position: fixed;
+  top: 0%;
+  padding: 8px 16px;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
+  box-sizing: inherit;
+  overflow: hidden;
+}
+.topleft b {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bolder;
+}
+.topleft {
+  padding: 10px;
+}
+.topright {
+  float: right;
+  padding: 10px;
+}
+#topimg {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#topp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-size: xx-large;
+  text-align: center;
+}
+#topp b {
+  padding: 5px;
+  background-color: black;
+  opacity: 0.75;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.topproject {
+  padding: 10px;
+  margin: 20px;
+  font-weight: 400px;
+  border-bottom: 1px solid #ccc !important;
+}
+.Projectsmain {
+  margin: 20px;
+}
+.Projects1 {
+  width: 332px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: -1;
+  float: left;
+  padding-right: 28px;
+}
+.Projects2 {
+  width: 332px;
+  margin-bottom: 22px;
+  position: relative;
+  z-index: -1;
+  float: left;
+  padding-right: 28px;
+}
+#topimg {
+  right: inherit;
+}
+.pojtoplft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+#fixing {
+  padding: 30px;
+  margin: 20px;
+}
+.topabt {
+  padding: 100px;
+  margin: 20px;
+}
+.h3abt {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  border-bottom: 1px solid #ccc !important;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400px;
+}
+.topabt p {
+  padding-top: 30px;
+}
+.abthead {
+  margin: 5px;
+  padding: 15px;
+}
+.a1 {
+  float: left;
+  padding: 15px;
+  margin: 5px;
+  height: 295px;
+  width: 342px;
+}
+.a2 {
+  float: left;
+  padding: 15px;
+  margin: 5px;
+  height: 295px;
+  width: 342px;
+}
+.a3 {
+  float: left;
+  padding: 15px;
+  margin: 5px;
+  height: 295px;
+  width: 342px;
+}
+.a4 {
+  float: left;
+  padding: 15px;
+  margin: 5px;
+  height: 295px;
+  width: 342px;
+}
+.opacityabt {
+  opacity: 0.5;
+}
+.buttonabt {
+  text-align: center;
+  height: 30px;
+  width: 300px;
+}
+.a1 h3{
+  padding: 10px 0;
+}
+.a2 h3{
+  padding: 10px 0;
+}
+.a3 h3{
+  padding: 10px 0;
+}
+.a4 h3{
+  padding: 10px 0;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.contact{
+  padding: 16px 0;
+  margin-top: 400px;
+  font-family: Verdana, sans-serif;
+  
+}
+.contact h2{
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  font-family: Verdana, sans-serif;
+}
+.contact p{
+  margin: 10px;
+}
+input{
+  width:100%;
+  height:30px;
+  margin:10px;
+  font-weight:bold;
+  padding: 20px;
+}
+button{
+  height:30px;
+  width:300px;
+  text-align: center;
+}
+.foot{
+  background-color:black ;
+  color:white;
+  padding:20px;
+  text-align: center;
+}
+h2{
+  font-style: normal;
+  font-family: "roboto";
+  margin:15px;
+  margin-top: 20px;
+}
+.f{
+  color:white;
+}
+.btn{
+  width:auto;
+  height: 20px;
+  padding: 12px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color:black;
+  color:white;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="divnav">
+        <div class="topleft">
+            <a href="#home"><b>YG</b>Architects</a>
+            <span class="topright"><a href="">Projects</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </span>
+        </div>
+    </nav>
+    <header>
+        <div id="topimg">
+            <img src="./architect.jpg" alt="img" width="100%" height="100%">
+        </div>
+        <h1 id="topp"><span class="text"><b>YG</b> Architects</span></h1>
+    </header>-
+    <main>
+        <section>
+            <div class="Projectsmain">
+
+                <h3 class="topproject">
+                    Projects
+                </h3>
+                <div id="fixing">
+                    <div class="Projects1">
+                        <div class="pojtoplft">Summer House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="100px"
+                            height="100%">
+                    </div>
+                    <div class="Projects1">
+                        <div class="pojtoplft">brick House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house2.jpg " alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <div class="Projects1">
+                        <div class="pojtoplft">Renovated</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house3.jpg " alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <div class="Projects1">
+                        <div class="pojtoplft">Barn House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house4.jpg" alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <br>
+                    <div class="Projects2">
+                        <div class="pojtoplft">Summer House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <div class="Projects2">
+                        <div class="pojtoplft">brick House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house2.jpg " alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <div class="Projects2">
+                        <div class="pojtoplft">Renovated</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house3.jpg" alt="" width="100%"
+                            height="100%">
+                    </div>
+                    <div class="Projects2">
+                        <div class="pojtoplft">Barn House</div>
+                        <img id="topimg" src="https://www.w3schools.com/w3images/house4.jpg" alt="" width="100%"
+                            height="100%">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="topabt">
+                    <h3 class="h3abt">About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui
+                        officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="abthead">
+                    <div class="a1">
+                        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" width="332px" height="100%">
+                        <h3>John Doe</h3>
+                        <p class="opacityabt">CEO & Founder</p>
+                        <p>
+                            "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum."
+                        </p>
+                        <button class="buttonabt">Contact</button>
+                    </div>
+                    <div class="a2">
+                        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="" width="332px" height="100%">
+                        <h3>Jena Doe</h3>
+                        <p class="opacityabt">Architect</p>
+                        <p>
+                            "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum."
+                        </p>
+                        <button class="buttonabt">Contact</button>
+                    </div>
+                    <div class="a3">
+                        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" width="332px" height="100%">
+                        <h3>Mike Ross</h3>
+                        <p class="opacityabt">Architect</p>
+                        <p>
+                            "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum."
+                        </p>
+                        <button class="buttonabt">Contact</button>
+                    </div>
+                    <div class="a4">
+                        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" width="332px" height="100%">
+                        <h3>Dan Star</h3>
+                        <p class="opacityabt">Architect</p>
+                        <p>
+                            "Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum."
+                        </p>
+                        <button class="buttonabt">Contact</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2> Contact</h2>
+                <p> Lets get in touch and talk about your next project.</p>
+            <div class="form">
+                <form>
+                    <input type="text" name="" value="" placeholder="Name" required name="name"><br>
+                    <input type="email" name="" value="" placeholder="email" required name="email"><br>
+                    <input type="text" name="" value="" placeholder="Subject" required name="Sunject"><br>
+                    <input type="text" name="" value="" placeholder="Comment" required name="Comment"><br>
+                    <button class="btn" type="submit">SEND MESSAGE </button>
+                </form>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/map.jpg " width="100%" height="600px">
+            </div>
+        </section>
+        <footer class="foot">
+            <pre>Powered By<a class="f"href="#"title="w3.css"target="_blank">yg</a></pre>
+        </footer>
+    </main>
+</body>
+
+</html>
